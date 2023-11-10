@@ -81,27 +81,29 @@ const Auth = () => {
 
         <form className='space-y-4 md:space-y-6' onSubmit={handleSubmit}>
           <input
-            type='email'
-            name='email'
-            placeholder='name@company.com'
-            required
-            className={inputStyles}
-            value={formData.email}
-            onChange={handleInputChange}
-          />
-          <input
             type='text'
             name='name'
-            placeholder='John Doe'
+            placeholder='USERNAME'
             required
             className={inputStyles}
             value={formData.name}
             onChange={handleInputChange}
           />
+
+          <input
+            type='email'
+            name='email'
+            placeholder='EMAIL'
+            required
+            className={inputStyles}
+            value={formData.email}
+            onChange={handleInputChange}
+          />
+          
           <input
             type='password'
             name='password'
-            placeholder='password'
+            placeholder='CREATE PASSWORD'
             required
             minLength={6}
             className={inputStyles}

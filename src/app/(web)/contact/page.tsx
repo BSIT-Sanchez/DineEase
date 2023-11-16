@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import Head from '../../../components/Head/Head';
 import Image from 'next/image';

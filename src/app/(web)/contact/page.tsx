@@ -16,7 +16,7 @@ function contact() {
               </h3>
               <div className='mt-3 text-sm leading-8 text-text'>
               <h2>
-               HELLO
+              Traditionally, a hotel property management system was defined as a system that enabled a hotel or group of hotels to manage front-office capabilities, such as booking reservations, guest check-in/checkout, room assignment, managing room rates, and billing.
               </h2>
 
               </div>

@@ -12,6 +12,7 @@ export const getFeaturedRoomQuery = groq`*[_type == "hotelRoom" && isFeatured ==
     coverImage
 }`;
 
+
 export const getRoomsQuery = groq`*[_type == "hotelRoom"] {
     _id, 
     coverImage,
@@ -24,6 +25,7 @@ export const getRoomsQuery = groq`*[_type == "hotelRoom"] {
     slug,
     type
 }`;
+
 
 export const getRoom = groq`*[_type == "hotelRoom" && slug.current == $slug][0] {
     _id,

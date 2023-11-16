@@ -1,6 +1,5 @@
 import { CreateReviewDto, Review } from './../models/review';
 import axios from 'axios';
-
 import { CreateBookingDto, Room } from '@/models/room';
 import sanityClient from './sanity';
 import * as queries from './sanityQueries';

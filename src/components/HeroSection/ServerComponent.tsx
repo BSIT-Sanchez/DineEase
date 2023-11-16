@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+
 
 export const heading1 = (
   <>
@@ -8,7 +8,7 @@ export const heading1 = (
       Experience an Exquisite Hotel Immersed in Rich History and Timeless
       Elegance.
     </p>
-    <Link href="/contact" className='btn-primary'>Get Started</Link>
+    <button className='btn-primary'>Get Started</button>
   </>
 );
 

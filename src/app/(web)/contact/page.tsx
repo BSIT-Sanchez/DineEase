@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Head from '../../../components/Head/Head';
+import Image from 'next/image';
 
 function contact() {
   return (
@@ -42,7 +43,7 @@ function contact() {
 
             </div>
             <div className="mt-10 lg:mt-0">
-              <img src="https://res.cloudinary.com/dn60f1sgi/image/upload/v1700160332/Hotel%20Rooms/%D0%9F%D0%B8%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9_%D0%BD%D0%BE%D0%BC%D0%B5%D1%80_%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8__%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82__hotel_artmoscow_%D0%B0%D1%80%D1%82_%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_render_standar...t%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80_%D0%BE%D1%81%D0%BD%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%D0%B0%D1%86%D0%B8%D1%8F%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%BE%D0%B2_artmebelhotel_%D0%B0%D1%80%D1%82%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BE%D1%82%D0%B5%D0%BB%D1%8C_ukvsqn.jpg" alt="aboutus" className='w-full xl:block hidden h-header rounded-lg object-cover'/>
+              <Image src="https://res.cloudinary.com/dn60f1sgi/image/upload/v1700160332/Hotel%20Rooms/%D0%9F%D0%B8%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9_%D0%BD%D0%BE%D0%BC%D0%B5%D1%80_%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8__%D0%A1%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82__hotel_artmoscow_%D0%B0%D1%80%D1%82_%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_render_standar...t%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80_%D0%BE%D1%81%D0%BD%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%D0%B0%D1%86%D0%B8%D1%8F%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%BE%D0%B2_artmebelhotel_%D0%B0%D1%80%D1%82%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BE%D1%82%D0%B5%D0%BB%D1%8C_ukvsqn.jpg" alt="aboutus" className='w-full xl:block hidden h-header rounded-lg object-cover'/>
             </div>
 
             

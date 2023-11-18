@@ -3,6 +3,7 @@
 import Head from '../../../components/Head/Head';
 import Image from 'next/image';
 
+
 function contact() {
   return (
     
@@ -20,7 +21,7 @@ function contact() {
               </h2>
 
               </div>
-              <div className='grid md:grid-cols-2 gap-6 mt-8'>
+              <div className='grid md:grid-cols-2 gap-3 mt-8'>
                   <div className="p-8 bg-dry rounded-lg">
                       <span className="text-3xl block font-extrabold">
                           10K
@@ -50,6 +51,7 @@ function contact() {
           </div>
 
         </div>
+        
 
       </div>
 

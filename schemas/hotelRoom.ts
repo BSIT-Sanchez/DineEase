@@ -31,14 +31,14 @@ const hotelRoom = {
       title: 'Description',
       type: 'text',
       validation: Rule =>
-      Rule.required().max(50).error('Maximum 50 Characters'),
+      Rule.required().min(50).error('Maximum 50 Characters'),
     }),
     defineField({
       name: 'price',
       title: 'Price',
       type: 'number',
       validation: Rule =>
-      Rule.required().max(50).error('Maximum 50 Characters'),
+      Rule.required().min(50).error('Maximum 50 Characters'),
     }),
     defineField({
       name: 'discount',
